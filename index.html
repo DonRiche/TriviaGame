@@ -18,22 +18,59 @@
     <header>
         <h1>AVENGERS TRIVIA GAME</h1>
     </header>
-
+    <!---------------------------HEADER------------------------>
     <div class="jumbotron">
-        <p id="question-headers">question 1</p>
-        <p id="answers-tags">answer</p>
-        <p id="question-headers">question 1</p>
-        <p id="answers-tags">answer</p>
-        <p id="question-headers">question 1</p>
-        <p id="answers-tags">answer</p>
-        <p id="question-headers">question 1</p>
-        <p id="answers-tags">answer</p>
-        <p id="question-headers">question 1</p>
-        <p id="answers-tags">answer</p>
+        <button class="startGameButton" onclick="onTimer()">START GAME</button>
+        <div id="mycounter"></div>
+        <!---------------------------Q1--------------------->
+
+        <p id="question-headers-one"></p>
+
+        <div class="true-false">
+            <button type="button" class="btn btn-secondary">True</button>
+
+            <button type="button" class="btn btn-secondary">False</button>
+        </div>
+        <!---------------------------Q2--------------------->
+        <p id="question-headers-two"></p>
+
+        <div class="true-false">
+            <button type="button" class="btn btn-secondary">True</button>
+
+            <button type="button" class="btn btn-secondary">False</button>
+        </div>
+        <!---------------------------Q3--------------------->
+        <p id="question-headers-three"></p>
+
+        <div class="true-false">
+            <button type="button" class="btn btn-secondary">True</button>
+
+            <button type="button" class="btn btn-secondary">False</button>
+        </div>
+        <!---------------------------Q4--------------------->
+        <p id="question-headers-four"></p>
+
+        <div class="true-false">
+            <button type="button" class="btn btn-secondary">True</button>
+
+            <button type="button" class="btn btn-secondary">False</button>
+        </div>
+        <!---------------------------Q5--------------------->
+        <p id="question-headers-five"></p>
+
+        <div class="true-false">
+            <button type="button" class="btn btn-secondary">True</button>
+
+            <button type="button" class="btn btn-secondary">False</button>
+        </div>
+
 
 
 
     </div>
+    <footer>
+        <h2>ENJOY!!!</h2>
+    </footer>
 </body>
 
 <script src="assets/javascript/app.js" type="text/javascript"></script>
