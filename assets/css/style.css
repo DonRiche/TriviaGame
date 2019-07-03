@@ -123,6 +123,10 @@ footer{
 }
 
 @media(max-width: 1280px){
+    body{
+        background: url(../images/Avengers_60s90s_1280-1430511501074_1280w.jpg);
+        background-size: 1280px;
+    }
     .true-false {
         margin-left: 37%;
     }
@@ -144,6 +148,10 @@ margin-top: 0;
 }
 
 @media(max-width: 760px){
+    body{
+        background: url(../images/Avengers_60s90s_1280-1430511501074_1280w.jpg);
+        background-size: 760px;
+    }
     .true-false {
         margin-left: 34%;
     }
@@ -163,6 +171,11 @@ margin-top: 0;
 }
 
 @media(max-width: 375px){
+
+    body{
+        background: url(../images/Avengers_60s90s_1280-1430511501074_1280w.jpg);
+        background-size: 375px;
+    }
     .true-false {
         margin-left: 17%;
     }
