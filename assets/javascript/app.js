@@ -56,8 +56,9 @@ function endGame() {
     $("#end-button").addClass("invisible");
 
     if (i != 0) {
-
+        $("#mycounter").addClass("invisible");
 
     }
 
+    i = 1000;
 };
