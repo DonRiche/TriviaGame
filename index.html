@@ -20,22 +20,23 @@
     </header>
     <!---------------------------HEADER------------------------>
     <div class="jumbotron">
-        <button class="startGameButton" onclick="onTimer()">START GAME</button>
+
+        <button id="start-button" class="startGameButton" onclick="onTimer()">START GAME</button>
         <div id="mycounter"></div>
         <!---------------------------Q1--------------------->
 
         <p id="question-headers-one"></p>
 
-        <div class="true-false">
-            <button type="button" class="btn btn-secondary">True</button>
+        <div id="q1" class="true-false">
+            <button type="button" class="btn btn-secondary" value="true">True</button>
 
-            <button type="button" class="btn btn-secondary">False</button>
+            <button id="q1a" type="button" class="btn btn-secondary" value="false">False</button>
         </div>
         <!---------------------------Q2--------------------->
         <p id="question-headers-two"></p>
 
         <div class="true-false">
-            <button type="button" class="btn btn-secondary">True</button>
+            <button id="q2a" type="button" class="btn btn-secondary">True</button>
 
             <button type="button" class="btn btn-secondary">False</button>
         </div>
@@ -45,13 +46,13 @@
         <div class="true-false">
             <button type="button" class="btn btn-secondary">True</button>
 
-            <button type="button" class="btn btn-secondary">False</button>
+            <button id="q3a" type="button" class="btn btn-secondary">False</button>
         </div>
         <!---------------------------Q4--------------------->
         <p id="question-headers-four"></p>
 
         <div class="true-false">
-            <button type="button" class="btn btn-secondary">True</button>
+            <button id="q4a" type="button" class="btn btn-secondary">True</button>
 
             <button type="button" class="btn btn-secondary">False</button>
         </div>
@@ -61,12 +62,16 @@
         <div class="true-false">
             <button type="button" class="btn btn-secondary">True</button>
 
-            <button type="button" class="btn btn-secondary">False</button>
+            <button id="q5a" type="button" class="btn btn-secondary">False</button>
         </div>
 
+        <!------------------------End Button------------------->
+        <button id="end-button" class="endGameButton" onclick="endGame()">END GAME</button>
 
 
+        <div id="result">
 
+        </div>
     </div>
     <footer>
         <h2>ENJOY!!!</h2>

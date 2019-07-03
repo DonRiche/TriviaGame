@@ -80,6 +80,24 @@ margin-right: 10%;
 
 }
 
+.endGameButton{
+    margin-left: 45%;
+    margin-top: 3%;
+    color: #131313;
+    background-color: #1763c7;
+    border-color: #444444;
+    font-family: 'Play', sans-serif;
+}
+
+#endGameButton{
+    margin-left: 45%;
+    margin-top: 3%;
+    color: #131313;
+    background-color: #1763c7;
+    border-color: #444444;
+    font-family: 'Play', sans-serif;
+}
+
 footer{
     height: 10%;
    padding: 10px;
@@ -90,4 +108,8 @@ footer{
     position: absolute;
     width: 100%;
     bottom: 0;
+}
+
+@media(max-width: 1080px){
+
 }

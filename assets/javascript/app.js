@@ -15,6 +15,7 @@ function onTimer() {
 
     document.getElementById('question-headers-five').textContent = 'Hawkeye/Ronin special power was "hyper-focus vision"';
 
+    $("#start-button").addClass("invisible");
 
     if (i < 0) {
         alert('You lose!');
@@ -24,3 +25,39 @@ function onTimer() {
     }
 }
 //////////////////////////GAME//////////////////////////////
+var score = 0;
+
+$("#q1a").one("click", function () {
+    score++;
+    console.log(score);
+})
+
+$("#q2a").one("click", function () {
+    score++;
+    console.log(score);
+})
+$("#q3a").one("click", function () {
+    score++;
+    console.log(score);
+})
+$("#q4a").one("click", function () {
+    score++;
+    console.log(score);
+})
+$("#q5a").one("click", function () {
+    score++;
+    console.log(score);
+})
+
+/////////////END GAME/////////////////
+function endGame() {
+    document.getElementById('result').textContent = "YOU HAVE " + score + " ANSWERS CORRECT!!!";
+
+    $("#end-button").addClass("invisible");
+
+    if (i != 0) {
+
+
+    }
+
+};
