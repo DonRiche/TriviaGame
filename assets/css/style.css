@@ -115,11 +115,32 @@ footer{
 #result{
     text-align: center;
     font-family: 'Teko', sans-serif;
-    font-size: 300%;
+    font-size: 200%;
 
 }
 @media(max-width: 1920px){
 
+}
+
+@media(max-width: 1280px){
+    .true-false {
+        margin-left: 37%;
+    }
+
+    .startGameButton {
+        margin-left: 43%;
+    }
+
+    .endGameButton {
+        margin-left: 43%;
+    }
+    #mycounter{
+        margin-left: 47%;
+margin-top: 0;
+    }
+.jumbotron{
+    padding: 1rem 2rem;
+}
 }
 
 @media(max-width: 760px){
@@ -133,6 +154,10 @@ footer{
 
     .endGameButton {
         margin-left: 42%;
+    }
+    #mycounter{
+        margin-left: 48%;
+
     }
 
 }
@@ -148,6 +173,11 @@ footer{
 
     .endGameButton {
         margin-left: 30%;
+    }
+
+    #mycounter{
+        margin-left: 43%;
+
     }
 
 }

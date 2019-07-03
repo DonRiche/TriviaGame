@@ -51,7 +51,7 @@ $("#q5a").one("click", function () {
 
 /////////////END GAME/////////////////
 function endGame() {
-    document.getElementById('result').textContent = "YOU HAVE " + score + " ANSWERS CORRECT!!!";
+    document.getElementById('result').textContent = "YOU HAVE " + score + " ANSWERS CORRECT!!! Refresh page to start again.";
 
     $("#end-button").addClass("invisible");
 
