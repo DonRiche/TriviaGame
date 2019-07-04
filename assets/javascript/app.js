@@ -1,4 +1,9 @@
 //////////////////////////COUNTER//////////////////
+
+$(".true-false").addClass("invisible");
+$("#end-button").addClass("invisible");
+
+
 i = 60;
 function onTimer() {
     document.getElementById('mycounter').innerHTML = i;
@@ -16,11 +21,13 @@ function onTimer() {
     document.getElementById('question-headers-five').textContent = 'Hawkeye/Ronin special power was "hyper-focus vision"';
 
     $("#start-button").addClass("invisible");
+    $(".true-false").removeClass("invisible");
+    $("#end-button").removeClass("invisible");
 
     function disableLoop() {
-        playAudio.loop = false;
+        playAudio.loop;
+        /* playAudio.play();*/
         console.log(playAudio);
-        playAudio.play();
     }
     disableLoop();
 
@@ -36,7 +43,7 @@ function onTimer() {
 var score = 0;
 
 loseAudio = new Audio(src = "assets/sounds/ant.mp3");
-playAudio = new Audio(src = "assets/sounds/avenge.mp3");
+playAudio = new Audio(src = "assets/sounds/desperate.mp3");
 
 console.log(playAudio);
 
