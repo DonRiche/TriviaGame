@@ -17,9 +17,16 @@ function onTimer() {
 
     $("#start-button").addClass("invisible");
 
+    function disableLoop() {
+        playAudio.loop = false;
+        console.log(playAudio);
+        playAudio.play();
+    }
+    disableLoop();
+
     if (i < 0) {
-        alert('You lose!');
         loseAudio.play();
+        alert('You lose!');
     }
     else {
         setTimeout(onTimer, 1000);
@@ -27,11 +34,13 @@ function onTimer() {
 }
 //////////////////////////GAME//////////////////////////////
 var score = 0;
-var loseAudio;
 
-function preload() {
-    loseAudio = loadSound("assets/sounds/ant.mp3");
-}
+loseAudio = new Audio(src = "assets/sounds/ant.mp3");
+playAudio = new Audio(src = "assets/sounds/avenge.mp3");
+
+console.log(playAudio);
+
+
 
 $("#q1a").one("click", function () {
     score++;
