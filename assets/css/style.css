@@ -14,7 +14,9 @@ body{
     position: relative;
     padding-bottom: 66px;
     min-height: 100vh;
-    background-size: 1920px;
+    background-size: 100%;
+    background-position: center;
+
 
 }
 
@@ -120,6 +122,9 @@ footer{
 }
 /*-----------------1920-----------*/
 @media(max-width: 1920px){
+    .startGameButton {
+        margin-left: 46%;
+    }
     
 
 }
@@ -128,7 +133,7 @@ footer{
 
 @media(max-width: 1280px){
     body{
-        background-size: 1280px;
+        background-size: 300%;
         background-position: center;
     }
     .true-false {
@@ -151,11 +156,13 @@ margin-top: 0;
 }
 }
 
-/*-----------------760-----------------*/
+/*-----------------768-----------------*/
 
 
-@media(max-width: 760px){
+@media(max-width: 768px){
     body{
+        background-size: 235%;
+
         background-position: center;
     }
     .true-false {
@@ -178,18 +185,20 @@ margin-top: 0;
 /*-----------------530-----------------*/
 @media(max-width: 530px){
     body{
+        background-size: 350%;
+
         background-position: center;
     }
     .true-false {
-        margin-left: 27%;
+        margin-left: 19%;
     }
 
     .startGameButton {
-        margin-left: 35%;
+        margin-left: 30%;
     }
 
     .endGameButton {
-        margin-left: 37%;
+        margin-left: 30%;
     }
     #mycounter{
         margin-left: 46%;
@@ -205,6 +214,8 @@ margin-top: 0;
 @media(max-width: 375px){
 
     body{
+        background-size: 500%;
+
         background-position: center;
     }
     .true-false {

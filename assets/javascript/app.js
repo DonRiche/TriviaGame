@@ -14,7 +14,7 @@ function onTimer() {
 
     document.getElementById('question-headers-two').textContent = 'The wormhole that allowed Loki to reach the earth was in New York city';
 
-    document.getElementById('question-headers-three').textContent = 'Spiderman begin as an Avenger';
+    document.getElementById('question-headers-three').textContent = 'Spiderman began as an Avenger';
 
     document.getElementById('question-headers-four').textContent = 'Dr.Strange only saw one possible outcome for the Avengers to win';
 
