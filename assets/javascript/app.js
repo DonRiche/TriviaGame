@@ -19,6 +19,7 @@ function onTimer() {
 
     if (i < 0) {
         alert('You lose!');
+        loseAudio.play();
     }
     else {
         setTimeout(onTimer, 1000);
@@ -26,6 +27,11 @@ function onTimer() {
 }
 //////////////////////////GAME//////////////////////////////
 var score = 0;
+var loseAudio;
+
+function preload() {
+    loseAudio = loadSound("assets/sounds/ant.mp3");
+}
 
 $("#q1a").one("click", function () {
     score++;
